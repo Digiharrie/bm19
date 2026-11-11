@@ -125,8 +125,11 @@
         border-bottom: 3px solid var(--yellow);
         white-space: nowrap;
       }
+      tbody tr {
+        background: #e6e6e6;
+      }
       tbody tr:hover {
-        background: var(--soft);
+        background: #fff;
       }
       td.abstract {
         max-width: 32rem;
